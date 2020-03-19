@@ -60,7 +60,80 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+body {
+	width: 85%;
+	margin: auto;
+}
+
+a { 
+	text-decoration: none;
+	color: lightgrey;
+	padding-left: 5%;
+}
+
+.container {
+	margin: 2% 0 8% 0;
+}
+
+.container img {
+	margin: 0 0 0 7%;
+}
+
+.main {
+	display: inline-block;
+	width: 45%;
+	margin: 2% 0 3% 2% ;
+	font-size: 80px;
+	text-align: center;
+}
+
+.button{
+	border-radius: 0px;
+	border: 1px solid black;
+	font-size: 18px;
+	padding: 1% 12%;
+	margin-bottom: 10%;
+	font-family: Titillium Web;
+}
+
+.top-box {
+	border-top: 1px solid black;
+}
+
+.info {
+	display: inline-block;
+	width: 47%;
+	margin: 5% 1%;
+}
+
+.middle-box {
+	width: 100%;
+}
+
+.bottom-box {
+	border-bottom: 1px solid black;
+}
+
+.info2 {
+	display: inline-block;
+	width: 33%;
+	padding: 3% 1%;
+}
+
+.contact {
+	margin: 4% 0;
+}
+
+.number {
+	margin-top: 2%
+}
+
+.footer {
+	margin: 7% 35% 12% 38%;
+}
+
